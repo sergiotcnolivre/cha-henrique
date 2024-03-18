@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    background-image: url('./assets/img/bg-body.png');
+    background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        height: 100%;
+        width: 100%;
+        overflow-x:hidden ;
+}
+h1, h2 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    font-size: 64px;
+    text-shadow: 3px 3px #2daaa3;
+    color: #fff;
+    margin: 0;
+}
+h2 {
+    font-size: 32px;
+    margin: 0;
+}
+header {
+    width: 100%;
+    background-image: url('./assets/img/bg-header_02.png');
+    background-size: cover;
+    height: 340px;
+    background-position: bottom;
+}
+.container-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:  35px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header h2 {
+    color: #2daaa3;
+}
+.titulo-confirma {
+    color: #00dcca;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.acompanhantes {color: #5d737e; font-weight: bold; margin-bottom: 1rem; }
+input {
+    height: 56px;
+    width: 80%;
+    max-width: 700px;
+    background-color: #fff;
+    color: rgba(0, 0, 0, .6);
+    border-color: rgba(0, 0, 0, .6);
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+    border-width: 1px;
+}
+button {
+    height: 42px;
+    min-width: 64px;
+    padding: 0 16px;
+    font-size: 20px;
+    background-color: #3bc4be;
+    color: #fff !important;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    outline: none;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+footer {
+    background-image: url('./assets/img/bg-footer.png');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 297px;
+    margin-bottom: -20px;
+}
