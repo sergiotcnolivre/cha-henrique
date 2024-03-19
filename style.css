@@ -105,3 +105,8 @@ footer {
     height: 297px;
     margin-bottom: -20px;
 }
+@media screen and (min-width: 1900px) {
+    footer {
+        height: 400px;
+    }
+}
